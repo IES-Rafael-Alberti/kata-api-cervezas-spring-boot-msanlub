@@ -1,6 +1,6 @@
-package daw2a.gestionbiblioteca.controllers;
-import daw2a.gestionbiblioteca.entities.Style;
-import daw2a.gestionbiblioteca.services.StyleService;
+package daw2a.kata_cervezas.controllers;
+import daw2a.kata_cervezas.entities.Style;
+import daw2a.kata_cervezas.services.StyleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/styles")
+@RequestMapping("/styles")
 public class StyleController {
 
     private final StyleService styleService;

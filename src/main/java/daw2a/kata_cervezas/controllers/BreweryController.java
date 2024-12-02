@@ -1,7 +1,7 @@
-package daw2a.gestionbiblioteca.controllers;
+package daw2a.kata_cervezas.controllers;
 
-import daw2a.gestionbiblioteca.entities.Brewery;
-import daw2a.gestionbiblioteca.services.BreweryService;
+import daw2a.kata_cervezas.entities.Brewery;
+import daw2a.kata_cervezas.services.BreweryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/breweries")
+@RequestMapping("/breweries")
 public class BreweryController {
 
     private final BreweryService breweryService;

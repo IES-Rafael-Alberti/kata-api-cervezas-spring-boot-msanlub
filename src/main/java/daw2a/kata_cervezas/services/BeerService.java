@@ -1,7 +1,7 @@
-package daw2a.gestionbiblioteca.services;
+package daw2a.kata_cervezas.services;
 
-import daw2a.gestionbiblioteca.entities.Beer;
-import daw2a.gestionbiblioteca.repositories.BeerRepository;
+import daw2a.kata_cervezas.entities.Beer;
+import daw2a.kata_cervezas.repositories.BeerRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

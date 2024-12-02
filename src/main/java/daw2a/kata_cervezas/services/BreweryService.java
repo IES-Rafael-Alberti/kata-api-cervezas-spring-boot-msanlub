@@ -1,7 +1,7 @@
-package daw2a.gestionbiblioteca.services;
+package daw2a.kata_cervezas.services;
 
-import daw2a.gestionbiblioteca.entities.Brewery;
-import daw2a.gestionbiblioteca.repositories.BreweryRepository;
+import daw2a.kata_cervezas.entities.Brewery;
+import daw2a.kata_cervezas.repositories.BreweryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

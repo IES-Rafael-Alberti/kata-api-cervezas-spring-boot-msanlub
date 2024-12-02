@@ -1,14 +1,14 @@
-package daw2a.gestionbiblioteca.controllers;
+package daw2a.kata_cervezas.controllers;
 
-import daw2a.gestionbiblioteca.entities.Beer;
-import daw2a.gestionbiblioteca.services.BeerService;
+import daw2a.kata_cervezas.entities.Beer;
+import daw2a.kata_cervezas.services.BeerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/beers")
+@RequestMapping("/beers")
 @RequiredArgsConstructor
 public class BeerController {
     private final BeerService beerService;

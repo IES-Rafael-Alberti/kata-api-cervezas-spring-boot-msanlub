@@ -1,4 +1,4 @@
-package daw2a.gestionbiblioteca.entities;
+package daw2a.kata_cervezas.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,6 +1,6 @@
-package daw2a.gestionbiblioteca.repositories;
+package daw2a.kata_cervezas.repositories;
 
-import daw2a.gestionbiblioteca.entities.Brewery;
+import daw2a.kata_cervezas.entities.Brewery;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import java.util.List;

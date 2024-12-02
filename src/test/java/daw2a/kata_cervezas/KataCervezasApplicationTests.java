@@ -1,13 +1,13 @@
-package daw2a.gestionbiblioteca;
+package daw2a.kata_cervezas;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GestionBibliotecaApplicationTests {
+class KataCervezasApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
